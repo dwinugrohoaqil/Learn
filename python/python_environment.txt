@@ -1,0 +1,84 @@
+Press Ctrl+I and ASK copilot
+
+venv or conda and explain it
+
+you can active and deactive those environment
+
+kalo mau pake venv? , then actice venv
+kalo mau pake conda? , then actice conda
+
+via terminal 
+
+====================================================================================================
+
+# Penjelasan tentang Environment
+
+## Apa itu Environment?
+Environment adalah lingkungan virtual yang terisolasi di mana Anda dapat mengelola dan menjalankan proyek Python Anda. Lingkungan ini memungkinkan Anda untuk memiliki versi Python dan pustaka yang spesifik untuk proyek tertentu tanpa mempengaruhi sistem Python global atau proyek lainnya.
+
+## Komponen dalam Environment
+1. **Interpreter Python**: Versi spesifik dari Python yang digunakan oleh environment tersebut.
+2. **Pustaka dan Modul**: Semua pustaka dan modul yang diinstal di environment tersebut.
+3. **Scripts dan Binaries**: Skrip dan file biner yang terkait dengan pustaka yang diinstal.
+4. **Pengaturan dan Konfigurasi**: File konfigurasi yang mengatur environment tersebut.
+
+-------------------------------------------------------------------------------------------------------------------
+
+__     __ 
+\ \   / / 
+ \ \ / /  
+  \ V /   
+   \_/    
+ _____ 
+| ____|
+| |__  
+|  __| 
+| |___ 
+|_____|
+ _   _ 
+| \ | |
+|  \| |
+| . ` |
+| |\  |
+|_| \_|
+__     __ 
+\ \   / / 
+ \ \ / /  
+  \ V /   
+   \_/    
+
+
+## Contoh Struktur Environment
+### venv
+```plaintext
+myenv/
+├── bin/ (atau Scripts/ di Windows)
+│   ├── activate
+│   ├── python
+│   └── ...
+├── lib/ (atau Lib/ di Windows)
+│   └── pythonX.X/
+│       └── site-packages/
+│           └── ...
+└── pyvenv.cfg
+
+-------------------------------------------------------------------------------------------------------------------
+## Contoh Struktur Environment
+### conda
+```plaintext
+
+myenv/
+├── bin/
+│   ├── activate
+│   ├── python
+│   └── ...
+├── lib/
+│   └── pythonX.X/
+│       └── site-packages/
+│           └── ...
+├── conda-meta/
+│   └── ...
+└── etc/
+    └── ...
+    
+-------------------------------------------------------------------------------------------------------------------
