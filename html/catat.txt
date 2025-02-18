@@ -1,0 +1,59 @@
+What is HTML?
+
+    HTML stands for Hyper Text Markup Language
+    HTML is the standard markup language for creating Web pages
+    HTML describes the structure of a Web page
+    HTML consists of a series of elements
+    HTML elements tell the browser how to display the content
+    HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+<!DOCTYPE html> - Defines the document type and version (HTML5)
+            The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly. It must only appear once, at the top of the page (before any HTML tags).
+            The <!DOCTYPE> declaration is not case sensitive.
+
+<html> - The root element of an HTML page
+<head> - Contains meta-information about the HTML page
+<title> - Specifies a title for the HTML page
+<body> - Defines the document's body
+
+            <h1> to <h6> - Define HTML headings
+            <p> - Defines a paragraph
+
+<a> - Defines a hyperlink ================== <a href="https://www.w3schools.com">This is a link</a>
+<img> - Embeds an image ================= <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+                                           The source file (src), alternative text (alt), width, and height
+
+            <ul> - Defines an unordered list
+            <ol> - Defines an ordered list
+            <li> - Defines a list item
+
+                            <table> - Defines a table
+                            <tr> - Defines a row in a table
+                            <td> - Defines a cell in a table
+                            <th> - Defines a header cell in a table
+
+            <div> - Defines a division or section
+            <span> - Defines a section in a document
+
+<form> - Defines an HTML form for user input
+<input> - Defines an input control
+<button> - Defines a clickable button
+<select> - Defines a drop-down list
+<option> - Defines an option in a drop-down list
+<textarea> - Defines a multi-line text input control
+
+            <link> - Defines the relationship between a document and an external resource (most used to link to stylesheets)
+            <meta> - Defines metadata about an HTML document
+            <script> - Defines a client-side script
+            <style> - Defines style information for a document
+
+<br> tag defines a line break, and is an empty element without a closing tag =============== <p>This is a <br> paragraph with a line break.</p>
+
+
+
+
+View HTML Source Code:
+Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.
+
+Inspect an HTML Element:
+Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
