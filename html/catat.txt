@@ -7,6 +7,9 @@ What is HTML?
     HTML elements tell the browser how to display the content
     HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
 
+===================================================================================================================================================
+===================================================================================================================================================
+
 <!DOCTYPE html> - Defines the document type and version (HTML5)
             The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly. It must only appear once, at the top of the page (before any HTML tags).
             The <!DOCTYPE> declaration is not case sensitive.
@@ -48,12 +51,40 @@ What is HTML?
             <style> - Defines style information for a document
 
 <br> tag defines a line break, and is an empty element without a closing tag =============== <p>This is a <br> paragraph with a line break.</p>
+<hr> tag in HTML defines a thematic break in the content, typically represented as a horizontal rule (line). It is an empty element, meaning it does not have a closing tag.
 
+            Bold: <b> or <strong>
+            Italic: <i> or <em>
+            Underline: <u>
+            Strikethrough: <s> or <del>
 
-
+===================================================================================================================================================
+===================================================================================================================================================
 
 View HTML Source Code:
 Click CTRL + U in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.
 
 Inspect an HTML Element:
 Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
+
+===================================================================================================================================================
+===================================================================================================================================================
+
+HTML attributes provide additional information about HTML elements.
+
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+    <<>>
+    The href Attribute
+    The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+    Example
+    <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+    <<>>
+    The src Attribute
+    The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+    Example
+    <img src="img_girl.jpg">
