@@ -28,13 +28,13 @@
     <h3>Chapter Summary</h3>
     <ul>
         <li>All HTML elements can have attributes</li>
-        <li>The <code>href</code> attribute of <code>a</code> specifies the URL of the page the link goes to</li>
-        <li>The <code>src</code> attribute of <code>img</code> specifies the path to the image to be displayed</li>
-        <li>The <code>width</code> and <code>height</code> attributes of <code>img</code> provide size information for images</li>
-        <li>The <code>alt</code> attribute of <code>img</code> provides an alternate text for an image</li>
-        <li>The <code>style</code> attribute is used to add styles to an element, such as color, font, size, and more</li>
-        <li>The <code>lang</code> attribute of the <code>html</code> tag declares the language of the Web page</li>
-        <li>The <code>title</code> attribute defines some extra information about an element</li>
+        <li><a href="#href-attribute">The <code>href</code> attribute of <code>a</code> specifies the URL of the page the link goes to</a></li>
+        <li><a href="#src-attribute">The <code>src</code> attribute of <code>img</code> specifies the path to the image to be displayed</a></li>
+        <li><a href="#width-height-attributes">The <code>width</code> and <code>height</code> attributes of <code>img</code> provide size information for images</a></li>
+        <li><a href="#alt-attribute">The <code>alt</code> attribute of <code>img</code> provides an alternate text for an image</a></li>
+        <li><a href="#style-attribute">The <code>style</code> attribute is used to add styles to an element, such as color, font, size, and more</a></li>
+        <li><a href="#lang-attribute">The <code>lang</code> attribute of the <code>html</code> tag declares the language of the Web page</a></li>
+        <li><a href="#title-attribute">The <code>title</code> attribute defines some extra information about an element</a></li>
     </ul>
 <hr>
    <div>
@@ -470,7 +470,7 @@
                     </div>
                    
 <hr>
-<h2>The href Attribute</h2>
+<div id="href-attribute"><h2>The <code>href</code> Attribute--in <code>a</code></h2>
 <p>The &lt;a&gt; tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
     <br> Example:
     <br> &lt;a href="https://www.w3schools.com"&gt;Visit W3Schools &lt;/a&gt;
@@ -479,25 +479,27 @@
 
 <hr>
 
-<h2>The src Attribute</h2>  
-<p>The &lt;img&gt; tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
-<br>Example
-<br>&lt;img src="img_girl.jpg"&gt;
-</p>
-<p>There are two ways to specify the URL in the src attribute:</p>
-<h4>1.Absolute URLURL (Uniform Resource Locator)</h4>
-<p>Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
-<br>
-<br> <b> Notes</b>: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
-</p>
-<h4>2.Relative URLURL (Uniform Resource Locator)</h4>
-<p>Links to an image that is hosted within the website. Here, the URL does not include the domain name. <br>If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". <em>Artinya, browser akan mencari file "img_girl.jpg" di <b>lokasi yang sama</b> dengan halaman saat ini.</em>
-<br>If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg". <em>Artinya, browser akan mencari file "img_girl.jpg" di <b>direktori root dari domain.</b></em>
-<br><b>maksudnya</b> kalo naro file html di direktori tertentu lu  gaperlu sematkan / karena berada pada direktori yang sama dimana html itu berapa. <b>Namun</b> dikasih / juga boleh , maka dia akan cari secara bird view melalui root direktori
-<br>    
-<br> <b>Tip:</b> It is almost always best to use relative URLs. They will not break if you change domain.
-</p>
+<div id="src-attribute"><h2>The <code>src</code> Attribute--in <code>img</code></h2>  
+    &lt;img&gt; tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+    <br>Example
+    <br>&lt;img src="img_girl.jpg"&gt;
+    </p>
+    <p>There are two ways to specify the URL in the src attribute:</p>
+    <h4>1.Absolute URLURL (Uniform Resource Locator)</h4>
+    <p>Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+    <br>
+    <br> <b> Notes</b>: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+    </p>
+    <h4>2.Relative URLURL (Uniform Resource Locator)</h4>
+    <p>Links to an image that is hosted within the website. Here, the URL does not include the domain name. <br>If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". <em>Artinya, browser akan mencari file "img_girl.jpg" di <b>lokasi yang sama</b> dengan halaman saat ini.</em>
+    <br>If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg". <em>Artinya, browser akan mencari file "img_girl.jpg" di <b>direktori root dari domain.</b></em>
+    <br><b>maksudnya</b> kalo naro file html di direktori tertentu lu  gaperlu sematkan / karena berada pada direktori yang sama dimana html itu berapa. <b>Namun</b> dikasih / juga boleh , maka dia akan cari secara bird view melalui root direktori
+    <br>    
+    <br> <b>Tip:</b> It is almost always best to use relative URLs. They will not break if you change domain.
+    </p>
+
 <hr>
+
 <div id="width-height-attributes"><h2>The <code>width</code> and <code>height</code> Attributes</h2>
     <p>The <code>img</code> tag should also contain the <code>width</code> and <code>height</code> attributes, which specify the width and height of the image (in pixels):
     <br><b>Example</b>
@@ -507,9 +509,9 @@
     
     </div>
     
-    <hr>
+<hr>
     
-    <div id="alt-attribute"><h2>The <code>alt</code> Attribute</h2>
+<div id="alt-attribute"><h2>The <code>alt</code> Attribute</h2>
     <p>The required alt attribute for the <code>img</code> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.</p>   
     <br><b>Example</b>
     <br><img src="dittel.jpeg" height="300" alt="Dittel">
@@ -519,17 +521,17 @@
     <br>&lt;img src="jotron.jpg" alt="Jotron">
     </div>
     
-    <hr>
-    
-    <div id="style-attribute"><h2>The <code>style</code> Attribute</h2>
+<hr>
+
+<div id="style-attribute"><h2>The <code>style</code> Attribute</h2>
     <p>The style attribute is used to add styles to an element, such as color, font, size, and more.</p> 
     Example
     <br> &lt;p style="color:red;">This is a red paragraph.&lt;p&gt;
     </div>
     
-    <hr>
-    
-    <div id="lang-attribute"><h2>The <code>lang</code> Attribute</h2>
+<hr>
+
+<div id="lang-attribute"><h2>The <code>lang</code> Attribute</h2>
     <p>You should always include the lang attribute inside the &lt;html&gt;  tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</p>
     Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
     <br> 
@@ -544,9 +546,9 @@
         </pre>
     </div>
     
-    <hr>
-    
-    <div id="title-attribute"><h2>The <code>title</code> Attribute</h2>
+<hr>
+
+<div id="title-attribute"><h2>The <code>title</code> Attribute</h2>
     <p title="I'm a tooltip">It means that when you add a title attribute to an element, its value will be shown as a tooltip when someone hovers the mouse over that element. 
     <br>For example, in the paragraph:</p>
     <pre>
