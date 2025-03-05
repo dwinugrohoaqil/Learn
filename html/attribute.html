@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* Basic styling for the table */
+        table, th, td {
+            border: 1px solid #333;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        details {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>HTML Attributes</h1>
@@ -13,8 +24,20 @@
     <br>Attributes provide additional information about elements
     <br>Attributes are always specified in the start tag
     <br>Attributes usually come in name/value pairs like: name="value"</p>
-       
-   
+<hr>      
+    <h3>Chapter Summary</h3>
+    <ul>
+        <li>All HTML elements can have attributes</li>
+        <li>The <code>href</code> attribute of <code>a</code> specifies the URL of the page the link goes to</li>
+        <li>The <code>src</code> attribute of <code>img</code> specifies the path to the image to be displayed</li>
+        <li>The <code>width</code> and <code>height</code> attributes of <code>img</code> provide size information for images</li>
+        <li>The <code>alt</code> attribute of <code>img</code> provides an alternate text for an image</li>
+        <li>The <code>style</code> attribute is used to add styles to an element, such as color, font, size, and more</li>
+        <li>The <code>lang</code> attribute of the <code>html</code> tag declares the language of the Web page</li>
+        <li>The <code>title</code> attribute defines some extra information about an element</li>
+    </ul>
+<hr>
+   <div>
     <details>
         <summary>Table Attributes</summary>
      
@@ -444,6 +467,7 @@
                             <tr><td>wrap</td><td>&lt;textarea&gt;</td><td>Specifies how text in a text area should be wrapped</td></tr>
                     </table>
                         </details>
+                    </div>
                    
 <hr>
 <h2>The href Attribute</h2>
@@ -474,7 +498,61 @@
 <br> <b>Tip:</b> It is almost always best to use relative URLs. They will not break if you change domain.
 </p>
 <hr>
-<h2>The width and height Attributes</h2>
-</div>
+<div id="width-height-attributes"><h2>The <code>width</code> and <code>height</code> Attributes</h2>
+    <p>The <code>img</code> tag should also contain the <code>width</code> and <code>height</code> attributes, which specify the width and height of the image (in pixels):
+    <br><b>Example</b>
+    <br><code>img src="img_girl.jpg" width="500" height="600"</code></p>
+    <b>Tips </b>: Jika Anda hanya menentukan salah satu atribut (misalnya width saja), browser akan mengatur dimensi lainnya secara otomatis agar proporsional.
+    <b>Example</b>: <code>img src="img_girl.jpg" width="500" alt="A girl with a hat"</code>
+    
+    </div>
+    
+    <hr>
+    
+    <div id="alt-attribute"><h2>The <code>alt</code> Attribute</h2>
+    <p>The required alt attribute for the <code>img</code> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.</p>   
+    <br><b>Example</b>
+    <br><img src="dittel.jpeg" height="300" alt="Dittel">
+    <br>&lt;img src="dittel.jpg" alt="Dittel">
+    <br><b>Example</b>
+    <br><img src="jotron.jpeg" alt="Jotron">
+    <br>&lt;img src="jotron.jpg" alt="Jotron">
+    </div>
+    
+    <hr>
+    
+    <div id="style-attribute"><h2>The <code>style</code> Attribute</h2>
+    <p>The style attribute is used to add styles to an element, such as color, font, size, and more.</p> 
+    Example
+    <br> &lt;p style="color:red;">This is a red paragraph.&lt;p&gt;
+    </div>
+    
+    <hr>
+    
+    <div id="lang-attribute"><h2>The <code>lang</code> Attribute</h2>
+    <p>You should always include the lang attribute inside the &lt;html&gt;  tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</p>
+    Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+    <br> 
+    The following example specifies English as the language and United States as the country:
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en-US"&gt;
+        &lt;body&gt;
+            ...
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </pre>
+    </div>
+    
+    <hr>
+    
+    <div id="title-attribute"><h2>The <code>title</code> Attribute</h2>
+    <p title="I'm a tooltip">It means that when you add a title attribute to an element, its value will be shown as a tooltip when someone hovers the mouse over that element. 
+    <br>For example, in the paragraph:</p>
+    <pre>
+        &lt;p title="I'm a tooltip"&gt;This is a paragraph.&lt;/p&gt;
+      </pre>
+    </div>
+
 </body>
 </html>
