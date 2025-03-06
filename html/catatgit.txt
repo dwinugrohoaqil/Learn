@@ -1,0 +1,134 @@
+today i make mistake
+
+i make comit but cannot sync in github
+it because im in another work tree
+
+===================================================================================================================================================
+git branch //List all local branches
+
+git branch -d branch_name               //Delete a local branch:
+git push origin --delete branch_name    //Delete a remote branch:
+
+git branch -D branch_name               //If the branch has not been merged, you can force delete it using:
+
+git checkout <branch-name>            //Switch to a branch:
+git checkout -b <branch-name>         //Create a new branch and switch to it:
+git checkout -                      //Switch to the branch last checked out:
+===================================================================================================================================================
+git remote -v                           //Verify that the remote repository URL is correct
+===================================================================================================================================================
+git status                              //Check your current branch:
+===================================================================================================================================================
+git worktree list                       //List all worktrees:
+git worktree add <path> <branch-name>   //Create a new worktree:
+git worktree remove <path>              //Remove a worktree:
+===================================================================================================================================================
+git log                                 //View the commit history:
+git log --oneline                       //View the commit history with one line per commit:
+git log --oneline --graph               //View the commit history with one line per commit and a graph of the branch:
+git log --oneline --graph --all         //View the commit history with one line per commit and a graph of the branch and all refs:
+===================================================================================================================================================
+git diff                                //View the changes between two branches:
+git diff --cached                       //View the changes you staged:
+git diff HEAD                           //View the changes you have in your working directory:
+git diff <commit-id>                    //View the changes you have in your working directory compared to a specific commit:
+===================================================================================================================================================
+git add <file>                          //Stage a file:
+git add .                               //Stage all changes:
+git add -p                              //Interactively stage changes:
+===================================================================================================================================================
+git commit -m "Message"                 //Commit changes:
+git commit --amend                      //Amend the last commit:
+===================================================================================================================================================
+git reset <file>                        //Unstage a file:
+git reset --soft HEAD~1                 //Undo the last commit and keep your changes:
+git reset --hard HEAD~1                 //Discard all history and changes back to the specified commit:
+===================================================================================================================================================
+git checkout -- <file>                  //Discard changes in the working directory:
+git checkout <commit-id>                //Switch to a specific commit:
+===================================================================================================================================================
+git revert <commit-id>                  //Revert a commit:
+===================================================================================================================================================
+git merge <branch-name>                 //Merge a branch into the active branch:
+git rebase <branch-name>                //Rebase the current branch onto <branch-name>:
+===================================================================================================================================================
+git stash                               //Stash changes in a dirty working directory:
+git stash list                          //List all stashes:
+git stash apply                         //Apply the latest stash:
+git stash apply stash@{n}               //Apply a specific stash:
+git stash drop                          //Remove the latest stash:
+git stash drop stash@{n}                //Remove a specific stash:
+===================================================================================================================================================
+git fetch                               //Fetch changes from the remote repository:
+git pull                                //Fetch changes from the remote repository and merge them into the current branch:
+git pull --rebase                       //Fetch changes from the remote repository and rebase them into the current branch:
+===================================================================================================================================================
+git push                                //Push changes to the remote repository:
+git push -u origin <branch-name>        //Push changes to the remote repository and set the remote as upstream:
+git push origin --delete <branch-name>  //Delete a remote branch:
+===================================================================================================================================================
+git tag                                 //List all tags:
+git tag <tag-name>                      //Create a tag:
+git tag -a <tag-name> -m "Message"      //Create an annotated tag:
+git tag -d <tag-name>                   //Delete a tag:
+git push origin <tag-name>              //Push a tag to the remote repository:
+git push origin --tags                  //Push all tags to the remote repository:
+===================================================================================================================================================
+git clone <repository-url>              //Clone a repository:
+git clone <repository-url> <folder>     //Clone a repository into a specific folder:
+===================================================================================================================================================
+git init                                //Initialize a local Git repository:
+===================================================================================================================================================
+git config --global user.name "Name"    //Set the name you want attached to your commits:
+git config --global user.email "Email"  //Set the email you want attached to your commits:
+===================================================================================================================================================
+git remote add origin <repository-url>  //Add a remote repository:
+git remote set-url origin <repository-url>  //Change the URL of a remote repository:
+===================================================================================================================================================
+git pull origin <branch-name>           //Pull changes from a remote repository:
+===================================================================================================================================================
+git push origin <branch-name>           //Push changes to a remote repository:
+===================================================================================================================================================
+git push origin --delete <branch-name>  //Delete a remote branch:
+===================================================================================================================================================
+git fetch origin                        //Fetch changes from a remote repository:
+===================================================================================================================================================
+git merge origin/<branch-name>          //Merge changes from a remote branch:
+===================================================================================================================================================
+git pull origin <branch-name> --allow-unrelated-histories  //Pull changes from a remote repository with unrelated histories:
+===================================================================================================================================================
+git push origin --tags                  //Push tags to a remote repository:
+===================================================================================================================================================
+git push origin :<tag-name>             //Delete a tag from a remote repository:
+===================================================================================================================================================
+git remote -v                           //List all remote repositories:
+===================================================================================================================================================
+git remote show origin                  //Show information about a remote repository:
+===================================================================================================================================================
+git remote rename <old-name> <new-name> //Rename a remote repository:
+===================================================================================================================================================
+git remote remove <repository-name>     //Remove a remote repository:
+===================================================================================================================================================
+git remote set-url origin <new-url>     //Change the URL of a remote repository:
+===================================================================================================================================================
+git remote prune origin                 //Remove remote tracking branches that no longer exist on the remote repository:
+===================================================================================================================================================
+git remote update                       //Fetch the most recent data from the remote repositories:
+===================================================================================================================================================
+git remote add upstream <repository-url>  //Add an upstream repository:
+===================================================================================================================================================
+git remote -v                           //Verify the new upstream repository:
+===================================================================================================================================================
+git fetch upstream                      //Fetch changes from the upstream repository:
+===================================================================================================================================================
+git merge upstream/master               //Merge changes from the upstream repository:
+===================================================================================================================================================
+git push origin master                  //Push changes to the origin repository:
+===================================================================================================================================================
+git push origin <branch-name>           //Push changes to a specific branch in the origin repository:
+===================================================================================================================================================
+git push origin --delete <branch-name>  //Delete a branch from the origin repository:
+===================================================================================================================================================
+
+
+
