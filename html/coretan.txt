@@ -478,3 +478,118 @@ IF(AND(AE3="REQUEST TO CLOSED", AH3="DECLINE"), "OPEN", ""))))))
 [71, 85, 83, 83, 74, 69, 82, 79]
 
 
+Bandar Udara Fatmawati Soekarno (Bengkulu)
+
+Dikelola oleh PT. Angkasa Pura II.
+
+Kode IATA: BKS, Kode ICAO: WIGG.
+
+Status: Umum, domestik, kelas I. 
+tender-indonesia.com
++6
+Hubud Kemenhub
++6
+Hubud Kemenhub
++6
+
+Bandar Udara Internasional Minangkabau (Padang)
+
+Dikelola oleh PT. Angkasa Pura II.
+
+Kode IATA: PDG, Kode ICAO: WIPT.
+
+Status: Umum, domestik dan internasional, kelas I.
+
+Bandar Udara Depati Amir (Pangkalpinang)
+
+Dikelola oleh PT. Angkasa Pura II.
+
+Kode IATA: PGK, Kode ICAO: WIPK.
+
+Status: Umum, domestik, kelas II.
+RRI
++3
+Hubud Kemenhub
++3
+Hubud Kemenhub
++3
+
+Bandar Udara Internasional Sultan Mahmud Badaruddin II (Palembang)
+
+Dikelola oleh PT. Angkasa Pura II.
+
+Kode IATA: PLM, Kode ICAO: WIPP.
+
+Status: Umum, domestik dan internasional, kelas I.
+
+Bandar Udara Depati Parbo (Kerinci)
+
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+Kode IATA: KRC, Kode ICAO: WIJI.
+
+Status: Umum, domestik, kelas III. 
+Hubud Kemenhub
++1
+Hubud Kemenhub
++1
+
+Bandara yang Tidak Dikelola oleh Angkasa Pura
+Bandar Udara Muara Bungo (Jambi)
+
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+Kode IATA: MJH, Kode ICAO: WIBM.
+
+Status: Umum, domestik, kelas III.
+tender-indonesia.com
++4
+Hubud Kemenhub
++4
+Hubud Kemenhub
++4
+Hubud Kemenhub
++1
+Hubud Kemenhub
++1
+Hubud Kemenhub
++2
+Instagram
++2
+Hubud Kemenhub
++2
+
+
+Bandar Udara Enggano
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+Bandar Udara Silampari 
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+Bandar Udara Muko Muko
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+
+Bandar Udara Pusako Anak Nagari (Sumatera Barat)
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+
+Bandar Udara Atung Bungsu (Sumatera Barat)
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+Bandar Udara Rokot (Sumatera Barat)
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+
+Bandar Udara H.A.S. Hanandjoeddin (Tanjung Pandan, Belitung)
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+Bandar Udara Depati Parbo (Kerinci)
+Dikelola oleh Unit Pelaksana Teknis (UPT) Ditjen Perhubungan Udara, bukan oleh Angkasa Pura.
+
+
+PT. Angkasa Pura Indonesia Cabang Jambi
+PT. Angkasa Pura Indonesia Cabangekarno Bengkulu
+PT. Angkasa Pura Indonesia Cabang Minangkabau Padang
+PT. Angkasa Pura Indonesia Cabang Pangkalpinang
+PT. Angkasa Pura Indonesia Cabang Palembang
